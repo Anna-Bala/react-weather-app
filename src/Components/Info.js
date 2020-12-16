@@ -2,7 +2,6 @@ import {FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBolt, faCloudRain, faCloudShowersHeavy, faSnowflake, faSun, faCloudSun, faSmog} from '@fortawesome/free-solid-svg-icons';
 
 const Info = (props) => {
-    console.log(props.data);
     const description = props.data.description;
     const main = props.data.main;
     const perceptibleTemp = props.data.perceptibleTemp;

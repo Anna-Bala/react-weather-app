@@ -92,8 +92,6 @@ class App extends Component {
     else if(this.day === "datomorrow") accurateDay.setDate(accurateDay.getDate() + 2);
     else if(this.day === "fourthday") accurateDay.setDate(accurateDay.getDate() + 3);
 
-    console.log(accurateDay.toISOString().slice(0, 10));
-
     date = (accurateDay.toISOString()).slice(0, 10);
 
     this.setState({

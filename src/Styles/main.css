@@ -29,8 +29,33 @@
   animation: fa-spin 6s infinite linear;
 }
 
+@media (min-width: 1281px) {
+  .topPanel__icon {
+    font-size: 20vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .topPanel__icon {
+    font-size: 10vh;
+  }
+}
+
 .topPanel__text {
   margin-left: 3vh;
+}
+
+@media (min-width: 1281px) {
+  .topPanel {
+    font-size: 15vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .topPanel {
+    font-size: 5vh;
+    height: 15vh;
+  }
 }
 
 * {
@@ -75,6 +100,14 @@ body {
   outline: none;
 }
 
+@media (min-width: 1281px) {
+  .form__input {
+    width: 90vh;
+    height: 7vh;
+    font-size: 4vh;
+  }
+}
+
 .form__input:focus {
   border: 0.5px solid #ffd556;
 }
@@ -92,10 +125,24 @@ body {
   cursor: pointer;
 }
 
+@media (min-width: 1281px) {
+  .form__button {
+    width: 15vh;
+    height: 7vh;
+    font-size: 4vh;
+  }
+}
+
 .form__button:hover {
   background-color: #ffd556;
   border: 0.5px solid #ffd556;
   color: white;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .form {
+    height: 6vh;
+  }
 }
 
 .navigation {
@@ -128,12 +175,36 @@ body {
   color: #649b92;
 }
 
+@media (min-width: 1281px) {
+  .navigation__item {
+    font-size: 70px;
+  }
+}
+
 .navigation__item:hover {
   color: #ffd556;
 }
 
 .navigation__text {
   text-transform: uppercase;
+}
+
+@media (min-width: 1281px) {
+  .navigation__text {
+    font-size: 4vh;
+  }
+}
+
+@media (min-width: 1281px) {
+  .navigation {
+    height: 15vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .navigation {
+    margin-top: 2vh;
+  }
 }
 
 .main {
@@ -173,6 +244,12 @@ body {
       align-self: center;
 }
 
+@media (min-width: 1281px) {
+  .main__icon {
+    font-size: 6vh;
+  }
+}
+
 .main__sun {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -182,6 +259,13 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+@media (min-width: 1281px) {
+  .main {
+    font-size: 5vh;
+    height: 15vh;
+  }
 }
 
 .info {
@@ -261,6 +345,19 @@ body {
   width: 70%;
 }
 
+@media (min-width: 1281px) {
+  .info {
+    width: 20%;
+    font-size: 4vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .info {
+    width: 70%;
+  }
+}
+
 .day {
   display: block;
   margin-top: 12vh;
@@ -270,6 +367,18 @@ body {
   text-transform: uppercase;
   font-size: 4vh;
   color: #006b61;
+}
+
+@media (min-width: 1281px) {
+  .day {
+    font-size: 7vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .day {
+    margin-top: 8vh;
+  }
 }
 
 .container {
